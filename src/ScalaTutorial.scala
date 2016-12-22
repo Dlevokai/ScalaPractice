@@ -33,7 +33,7 @@ object ScalaTutorial{
     println(list1.map(mapFunc))
 
 
-    println(list1.filter(filterFunc))
+    println(list1.map(mapFunc).filter(filterFunc))
     /*var text = f("hello")
     println(text)*/
     //list1.filter(filterFunc compose f )
